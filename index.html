@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'none'; form-action 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Francisco Javier Martínez — Backend &amp; Applied AI Engineer</title>
+  <meta name="description" content="Backend &amp; Applied AI Engineer based in Madrid, open to relocation in Europe. Java &amp; Spring Boot microservices for Banco Santander US and evaluated production RAG systems on PostgreSQL and AWS." />
+  <meta property="og:title" content="Francisco Javier Martínez — Backend &amp; Applied AI Engineer" />
+  <meta property="og:description" content="Java &amp; Spring Boot microservices for Banco Santander US, plus evaluated production RAG systems on PostgreSQL and AWS." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://javimp21.github.io/" />
+  <link rel="canonical" href="https://javimp21.github.io/" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a1d08'/%3E%3Ctext x='16' y='21.5' text-anchor='middle' font-family='Georgia,serif' font-size='15' fill='%23f8f9f5'%3EFJ%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top">
+        <span>Francisco Javier Martínez</span>
+        <span class="wordmark-tag">Madrid · EU</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary">
+        <a class="nav-link" href="#work">Work</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#notes">Notes</a>
+        <a class="nav-link" href="#stack">Stack</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-sm btn-primary" href="#contact">Contact</a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="#work">Selected work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#notes">Engineering notes</a></li>
+        <li><a href="#stack">Technical stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero-intro">
+          <div class="eyebrow hero-eyebrow">
+            <span>Francisco Javier Martínez</span>
+            <span class="hero-sep">/</span>
+            <span>Madrid, Spain</span>
+            <span class="hero-sep">/</span>
+            <span>Open to relocation in Europe</span>
+          </div>
+
+          <h1 class="hero-title">Backend &amp; Applied AI Engineer</h1>
+
+          <p class="hero-lead">
+            Java and Spring Boot engineer modernizing online banking microservices for
+            <strong>Banco Santander US</strong>. Outside work, I build, evaluate, and operate
+            production RAG systems end to end on <strong>PostgreSQL</strong> and <strong>AWS</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" data-open-email>Email me</button>
+            <button class="btn btn-ghost" type="button" data-copy-email>Copy email</button>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://github.com/javimp21" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/francisco-javier-martinez-perez/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://peatying.com/en" target="_blank" rel="noopener noreferrer">Peatying ↗</a>
+          </div>
+        </div>
+
+        <div class="fact-strip" aria-label="Profile overview">
+          <div>
+            <div class="fact-label">Current role</div>
+            <div class="fact-value">Backend Developer</div>
+            <div class="fact-sub">Keifi by Izertis · Santander US</div>
+          </div>
+          <div>
+            <div class="fact-label">Flagship build</div>
+            <div class="fact-value">peatying.com</div>
+            <div class="fact-sub">3,400+ visits · 6,000+ questions (1st mo.)</div>
+          </div>
+          <div>
+            <div class="fact-label">Cloud &amp; degree</div>
+            <div class="fact-value">AWS CLF-C02 · B.Sc. CS</div>
+            <div class="fact-sub">UC3M · Preparing AWS SAA-C03</div>
+          </div>
+          <div>
+            <div class="fact-label">Languages &amp; mobility</div>
+            <div class="fact-value">Spanish &amp; English (B2)</div>
+            <div class="fact-sub">Open to EU relocation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="eyebrow">01 / Selected work</div>
+            <h2 class="section-title">Systems built and operated end to end</h2>
+            <p class="section-intro">
+              Two personal systems built with production constraints in mind: measurable evaluation,
+              explicit safety boundaries, and zero unnecessary framework layers.
+            </p>
+          </div>
+        </div>
+
+        <article class="project-flagship">
+          <div class="project-top">
+            <div>
+              <div class="project-meta-row">
+                <span class="spec-badge">Live in production</span>
+                <span class="eyebrow">Oct 2026 – Present · Solo project</span>
+              </div>
+              <h3 class="project-name">Peatying</h3>
+              <p class="project-summary">
+                Bilingual (Spanish/English, answering in any language) RAG assistant grounded in the
+                work of biologist Ray Peat — <strong>78 articles, 5 books, 53 newsletter issues, and
+                221 transcribed radio interviews</strong> — citing its sources: original text or
+                audio one click away for articles and interviews, page or date for books and
+                newsletters.
+              </p>
+              <p class="project-usage">
+                <strong>3,400+ visits</strong> and <strong>6,000+ questions</strong> in its first month (Oct 25 – Nov 23, 2026).
+              </p>
+            </div>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://peatying.com/en" target="_blank" rel="noopener noreferrer">peatying.com ↗</a>
+              <a class="btn btn-sm btn-ghost" href="https://github.com/javimp21/peatying" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <div class="pipeline-list">
+              <div class="pipeline-step">
+                <div class="step-key">01 · Corpus</div>
+                <div class="step-text">
+                  Custom pipelines ingest 78 scraped articles, 5 books with printed page numbers
+                  recovered from PDF headers, and 53 scanned newsletters rebuilt from two-column
+                  OCR coordinates. Roughly 250 h of radio interviews were transcribed via
+                  <strong>Groq Whisper</strong> and speaker-attributed verbatim by
+                  <strong>Claude Sonnet</strong>.
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-key">02 · Search</div>
+                <div class="step-text">
+                  A single <strong>PostgreSQL 17 + pgvector</strong> query combines cosine vector
+                  similarity with English full-text search via Reciprocal Rank Fusion. Candidates
+                  are reordered by <strong>Voyage rerank-2.5</strong> under a per-source quota
+                  (3 written + 2 interview passages per 5 results), falling back to hybrid order if
+                  reranking fails.
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-key">03 · Agent</div>
+                <div class="step-text">
+                  A hand-written <strong>Claude tool-use loop</strong> calls the Messages API
+                  directly from Java 21, Spring Boot 4, and JdbcClient with no orchestration
+                  framework. Answers stream over SSE on virtual threads, alongside Whisper voice
+                  input and redacted PDF/photo lab-report analysis.
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-key">04 · Ops</div>
+                <div class="step-text">
+                  Runs on <strong>AWS EC2 (ARM, Docker Compose)</strong> and RDS behind Caddy HTTPS
+                  with secrets in SSM Parameter Store and zero-SSH SSM deploys. Enforces strict
+                  CSP, per-IP and global question limits, plus provider-side spend limits, and
+                  automatic PII redaction before storage.
+                </div>
+              </div>
+            </div>
+
+            <aside class="eval-panel" aria-label="Peatying evaluation results">
+              <div class="eval-header">
+                <span class="eval-title">Faithfulness evaluation</span>
+                <span class="eval-sub">Per-claim LLM judge</span>
+              </div>
+              <div class="eval-body">
+                <div class="eval-scope">30 hand-written questions, articles only, single run (Oct 2026)</div>
+
+                <div class="eval-compare">
+                  <div class="eval-bar-row">
+                    <div class="eval-bar-meta">
+                      <span class="eval-bar-label">With RAG</span>
+                      <span class="eval-bar-num">98%</span>
+                    </div>
+                    <div class="bar-track" aria-hidden="true">
+                      <div class="bar-fill bar-fill-rag"></div>
+                    </div>
+                    <div class="eval-bar-detail">198 / 202 claims supported · 4 unsupported · 0 contradicted</div>
+                  </div>
+
+                  <div class="eval-bar-row">
+                    <div class="eval-bar-meta">
+                      <span class="eval-bar-label muted">Same model without RAG</span>
+                      <span class="eval-bar-num baseline">73%</span>
+                    </div>
+                    <div class="bar-track" aria-hidden="true">
+                      <div class="bar-fill baseline bar-fill-baseline"></div>
+                    </div>
+                    <div class="eval-bar-detail">144 / 198 claims supported · 47 unsupported · 7 contradicted</div>
+                  </div>
+                </div>
+
+                <div class="eval-headtohead">
+                  <div class="eval-h2h-title">Haiku + RAG vs Claude Sonnet with web search</div>
+                  <p class="eval-h2h-result">
+                    Best answer in <strong>39 of 48 messages</strong> (6 losses, 3 ties);
+                    <strong>98% vs 84%</strong> of checked claims supported.
+                  </p>
+                  <p class="eval-h2h-note">
+                    12 four-message conversations, blind LLM judges; they check claims against the
+                    same corpus the bot uses, which favors it.
+                  </p>
+                </div>
+
+                <div class="eval-metrics">
+                  <div>
+                    <div class="mini-metric-val">33 / 37</div>
+                    <div class="mini-metric-label">Rule-based regression suite; the 4 failures cite other passages than the expected ones</div>
+                  </div>
+                  <div>
+                    <div class="mini-metric-val">7.5 / 10</div>
+                    <div class="mini-metric-label">Avg score across 50 real-style questions, 12 with prior turns</div>
+                  </div>
+                </div>
+
+                <p class="eval-quote">
+                  <strong>Why retrieval mattered:</strong> without RAG, Claude stated Peat viewed
+                  lactic acid as "a useful fuel." He wrote the opposite: <em>"I have begun thinking
+                  of lactic acid as a toxin."</em>
+                </p>
+              </div>
+            </aside>
+          </div>
+
+          <div class="tag-list" aria-label="Peatying stack">
+            <span class="tag">Java 21</span>
+            <span class="tag">Spring Boot 4</span>
+            <span class="tag">PostgreSQL 17 + pgvector</span>
+            <span class="tag">JdbcClient</span>
+            <span class="tag">Flyway</span>
+            <span class="tag">Claude API</span>
+            <span class="tag">Voyage AI</span>
+            <span class="tag">Whisper / Groq</span>
+            <span class="tag">AWS (EC2, RDS, ECR, SSM)</span>
+            <span class="tag">Caddy</span>
+            <span class="tag">Testcontainers</span>
+            <span class="tag">Vanilla HTML/CSS/JS</span>
+          </div>
+        </article>
+
+        <article class="project-secondary">
+          <div class="project-top">
+            <div>
+              <div class="project-meta-row">
+                <span class="eyebrow">Sep 2026 – Present · Python backend &amp; automation</span>
+              </div>
+              <h3 class="project-name">AI Job Hunter</h3>
+              <p class="project-summary">
+                Job discovery, evaluation, and assisted-application CLI designed around a strict
+                boundary: deterministic rules filter first, model evaluation scores second, and a
+                human stays in control of every external action.
+              </p>
+            </div>
+            <div class="project-links">
+              <a class="btn btn-sm btn-ghost" href="https://github.com/javimp21/ai-job-hunter" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="pillars-grid">
+            <div class="pillar">
+              <div class="pillar-title">Ingestion &amp; persistence</div>
+              <p class="pillar-text">
+                Monitors public company ATS boards (<strong>Greenhouse, Lever, Ashby</strong>) plus
+                Remotive, Python.org Jobs, and Sweden's JobTech. Normalizes and deduplicates
+                postings across sources in <strong>PostgreSQL 16</strong> using SQLAlchemy and
+                Alembic migrations.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-title">Deterministic vs. LLM split</div>
+              <p class="pillar-text">
+                Applies hard candidate prefilters before invoking structured LLM reasoning, keeping
+                cost and noise bounded. Exposes an opportunity feed, application tracking, outreach
+                drafts, and deduplicated, policy-filtered <strong>Telegram</strong> alerts.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-title">Safety &amp; offline testing</div>
+              <p class="pillar-text">
+                <strong>Playwright</strong> browser workflows include a hard <strong>submit
+                guard</strong> that blocks form submission and document uploads during preparation.
+                Zero LinkedIn scraping, dry-run modes, and an offline <strong>pytest</strong> suite
+                using synthetic fixtures.
+              </p>
+            </div>
+          </div>
+
+          <div class="tag-list" aria-label="AI Job Hunter stack">
+            <span class="tag">Python 3.13</span>
+            <span class="tag">PostgreSQL 16</span>
+            <span class="tag">SQLAlchemy</span>
+            <span class="tag">Alembic</span>
+            <span class="tag">Pydantic</span>
+            <span class="tag">httpx</span>
+            <span class="tag">Playwright</span>
+            <span class="tag">pytest</span>
+            <span class="tag">Docker Compose</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="eyebrow">02 / Experience</div>
+            <h2 class="section-title">Production banking backend</h2>
+          </div>
+        </div>
+
+        <div class="exp-layout">
+          <div class="exp-aside">
+            <div class="eyebrow">Sep 2025 – Present · Madrid</div>
+            <h3 class="exp-company">Keifi by Izertis</h3>
+            <div class="exp-client">Client: Banco Santander US</div>
+
+            <div class="role-timeline">
+              <div class="role-item current">
+                <div class="role-name">Backend Developer</div>
+                <div class="role-dates">Mar 2026 – Present</div>
+              </div>
+              <div class="role-item">
+                <div class="role-name">Backend Developer Intern</div>
+                <div class="role-dates">Sep 2025 – Mar 2026</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="exp-overview">
+              Backend engineer in the <strong>Banco Santander US</strong> online banking team,
+              analyzing legacy MuleSoft integration flows and migrating them into
+              <strong>Java 17 and Spring Boot 3</strong> microservices for financial and card
+              domains. Collaborating across teams in Madrid and Colombia through code reviews,
+              refinements, and certification-environment troubleshooting.
+            </p>
+
+            <div class="exp-areas">
+              <div class="exp-card">
+                <div class="exp-card-num">01 / Modernization</div>
+                <h4 class="exp-card-title">Contract-first MuleSoft migrations</h4>
+                <p class="exp-card-body">
+                  Built experience-layer REST microservices using OpenAPI 3 code generation
+                  (Delegate pattern) and MapStruct, preserving exact legacy response contracts,
+                  error formats, and edge-case path handling for downstream web and mobile clients.
+                </p>
+              </div>
+
+              <div class="exp-card">
+                <div class="exp-card-num">02 / Orchestration</div>
+                <h4 class="exp-card-title">Multi-API coordination &amp; partial failure</h4>
+                <p class="exp-card-body">
+                  Orchestrated ~10 internal banking APIs (cards, accounts, contracts, customer
+                  directory) with per-client timeouts. Handled partial failures explicitly —
+                  returning <code>207 Multi-Status</code> when a card block succeeds but reissuance
+                  fails, and degrading gracefully on multi-card lookups.
+                </p>
+              </div>
+
+              <div class="exp-card">
+                <div class="exp-card-num">03 / Security &amp; SSO</div>
+                <h4 class="exp-card-title">Stateless OTP flows &amp; SAML 2.0</h4>
+                <p class="exp-card-body">
+                  Implemented a two-step lost/stolen card block and reissuance flow using
+                  single-use, user- and card-bound external data tokens, SMS OTP resend caps, and
+                  30-day address-change fraud checks — plus signed &amp; encrypted SAML 2.0
+                  assertions (RSA-SHA256, exclusive C14N, AES-256 / RSA-OAEP, XXE hardening) for
+                  SSO into an external rewards portal.
+                </p>
+              </div>
+
+              <div class="exp-card">
+                <div class="exp-card-num">04 / Quality &amp; Delivery</div>
+                <h4 class="exp-card-title">Testing, OpenShift &amp; CVE remediation</h4>
+                <p class="exp-card-body">
+                  Wrote full-layer unit tests (JUnit 5, Mockito, JaCoCo), validated flows with
+                  Postman and SQL test data, and debugged OpenShift (Kubernetes), Docker, and
+                  Kafka-backed structured logs. Remediated SonarQube, Fortify, and Trivy findings,
+                  including transitive dependency CVE overrides in Maven.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="credentials-grid" aria-label="Education and certifications">
+          <div>
+            <div class="eyebrow">Education · Sep 2022 – Jul 2026</div>
+            <div class="cred-title">B.Sc. in Computer Science Engineering</div>
+            <div class="cred-meta">Universidad Carlos III de Madrid (UC3M) · Leganés</div>
+          </div>
+          <div>
+            <div class="eyebrow">Certification · Nov 2026</div>
+            <div class="cred-title">AWS Certified Cloud Practitioner (CLF-C02)</div>
+            <div class="cred-meta">Amazon Web Services · Preparing SAA-C03</div>
+          </div>
+          <div>
+            <div class="eyebrow">Languages</div>
+            <div class="cred-title">Spanish (Native) · English (B2)</div>
+            <div class="cred-meta">Cambridge First · Daily work with US/LatAm banking specs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="notes">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="eyebrow">03 / Engineering notes</div>
+            <h2 class="section-title">Problems worth telling</h2>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filter notes by topic">
+            <button class="filter-pill active" type="button" data-filter="all" aria-pressed="true">All (5)</button>
+            <button class="filter-pill" type="button" data-filter="rag" aria-pressed="false">RAG &amp; Evals</button>
+            <button class="filter-pill" type="button" data-filter="security" aria-pressed="false">Security</button>
+          </div>
+        </div>
+
+        <div class="notes-list">
+          <article class="note-row" data-category="rag">
+            <div class="note-aside">
+              <span class="note-cat">RAG &amp; Evals</span>
+              <span class="note-source">Peatying</span>
+            </div>
+            <div>
+              <h3 class="note-title">An LLM judge that graded the bot with its own evidence</h3>
+              <div class="note-columns">
+                <div>
+                  <div class="note-sublabel">What went wrong</div>
+                  <p class="note-text">
+                    The first faithfulness harness only showed the judge the chunks the chatbot had
+                    already retrieved, which let unsupported or cherry-picked claims look well
+                    supported.
+                  </p>
+                </div>
+                <div>
+                  <div class="note-sublabel">How it was fixed</div>
+                  <p class="note-text">
+                    Split every answer into individual attributed claims and retrieved the most
+                    relevant corpus passages independently per claim — measuring
+                    <strong>98% vs. 73%</strong> supported claims against the same model without
+                    retrieval (30 hand-written questions, articles only, single run).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="note-row" data-category="rag">
+            <div class="note-aside">
+              <span class="note-cat">RAG &amp; Evals</span>
+              <span class="note-source">Peatying</span>
+            </div>
+            <div>
+              <h3 class="note-title">The Spanish translation won every search</h3>
+              <div class="note-columns">
+                <div>
+                  <div class="note-sublabel">What went wrong</div>
+                  <p class="note-text">
+                    raypeat.com hosts a few translations. With multilingual embeddings, a Spanish
+                    question matched the one Spanish article regardless of topic.
+                  </p>
+                </div>
+                <div>
+                  <div class="note-sublabel">How it was fixed</div>
+                  <p class="note-text">
+                    Removed the translations from the corpus and made the full-text keywords
+                    English-only.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="note-row" data-category="rag">
+            <div class="note-aside">
+              <span class="note-cat">RAG &amp; Evals</span>
+              <span class="note-source">Peatying</span>
+            </div>
+            <div>
+              <h3 class="note-title">The bot retracted true statements</h3>
+              <div class="note-columns">
+                <div>
+                  <div class="note-sublabel">What went wrong</div>
+                  <p class="note-text">
+                    In follow-ups the bot no longer saw earlier sources, so when a new search didn't
+                    find a fact it "corrected" itself.
+                  </p>
+                </div>
+                <div>
+                  <div class="note-sublabel">How it was fixed</div>
+                  <p class="note-text">
+                    Fixed in the prompt and verified with repeated runs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="note-row" data-category="security">
+            <div class="note-aside">
+              <span class="note-cat">Privacy / PII</span>
+              <span class="note-source">Peatying</span>
+            </div>
+            <div>
+              <h3 class="note-title">A personal-data filter that ate "Energía celular:"</h3>
+              <div class="note-columns">
+                <div>
+                  <div class="note-sublabel">What went wrong</div>
+                  <p class="note-text">
+                    Users paste medical lab reports with ID numbers into chat, so messages are
+                    redacted before storage. The first regex treated <code>celular</code> ("mobile
+                    phone" in Latin American Spanish) inside <em>"Energía celular:"</em> (cellular
+                    energy) as a phone label and wiped the sentence.
+                  </p>
+                </div>
+                <div>
+                  <div class="note-sublabel">How it was fixed</div>
+                  <p class="note-text">
+                    Restricted everyday ambiguous words to match as PII labels only at the start of
+                    a line, and added regression tests with bot-style answers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="note-row" data-category="security">
+            <div class="note-aside">
+              <span class="note-cat">Security / SAML</span>
+              <span class="note-source">Banking APIs</span>
+            </div>
+            <div>
+              <h3 class="note-title">Line separators and signing order in SAML 2.0 XML assertions</h3>
+              <div class="note-columns">
+                <div>
+                  <div class="note-sublabel">What went wrong</div>
+                  <p class="note-text">
+                    When generating signed and encrypted SAML 2.0 responses for external SSO,
+                    platform-dependent line endings broke XML signature verification downstream,
+                    and encrypting before signing invalidated the assertion digest.
+                  </p>
+                </div>
+                <div>
+                  <div class="note-sublabel">How it was fixed</div>
+                  <p class="note-text">
+                    Enforced strict ordering (sign assertion with RSA-SHA256 + exclusive C14N,
+                    encrypt with AES-256 / RSA-OAEP, then sign the outer Response), normalized
+                    <code>\n</code> line endings during signing, and disabled DTDs and external
+                    stylesheets against XXE.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="eyebrow">04 / Technical stack</div>
+            <h2 class="section-title">Tools used in production</h2>
+          </div>
+        </div>
+
+        <div class="stack-table">
+          <div class="stack-row">
+            <div class="stack-group">Backend &amp; APIs</div>
+            <ul class="stack-items">
+              <li>Java 17 &amp; 21</li>
+              <li>Spring Boot 3 &amp; 4</li>
+              <li>REST APIs</li>
+              <li>OpenAPI 3 (contract-first)</li>
+              <li>Microservices</li>
+              <li>WebClient</li>
+              <li>JdbcClient</li>
+              <li>MapStruct</li>
+              <li>Maven</li>
+              <li>Python 3.13</li>
+            </ul>
+          </div>
+
+          <div class="stack-row">
+            <div class="stack-group">Data &amp; Applied AI</div>
+            <ul class="stack-items">
+              <li>PostgreSQL 17</li>
+              <li>pgvector</li>
+              <li>Hybrid Search (RRF + Reranking)</li>
+              <li>SQL</li>
+              <li>Flyway</li>
+              <li>SQLAlchemy</li>
+              <li>Alembic</li>
+              <li>Claude API (tool use, SSE)</li>
+              <li>Voyage AI</li>
+              <li>Whisper</li>
+              <li>LLM Evaluation</li>
+            </ul>
+          </div>
+
+          <div class="stack-row">
+            <div class="stack-group">Cloud &amp; Delivery</div>
+            <ul class="stack-items">
+              <li>AWS (EC2, RDS, ECR, SSM Parameter Store, CloudWatch)</li>
+              <li>Docker &amp; Compose</li>
+              <li>OpenShift (Kubernetes)</li>
+              <li>GitHub Actions CI/CD</li>
+              <li>Caddy</li>
+              <li>Kafka structured logging</li>
+            </ul>
+          </div>
+
+          <div class="stack-row">
+            <div class="stack-group">Quality &amp; Security</div>
+            <ul class="stack-items">
+              <li>JUnit 5</li>
+              <li>Mockito</li>
+              <li>JaCoCo</li>
+              <li>Testcontainers</li>
+              <li>Playwright</li>
+              <li>pytest</li>
+              <li>Postman</li>
+              <li>SonarQube</li>
+              <li>Fortify</li>
+              <li>Trivy</li>
+              <li>JWT</li>
+              <li>SAML 2.0 (OpenSAML)</li>
+              <li>OTP</li>
+              <li>CSP &amp; Rate Limiting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-eyebrow">Contact</div>
+          <h2 class="footer-heading">Open to backend &amp; applied AI roles across Europe.</h2>
+          <p class="footer-copy">
+            Based in Madrid and open to relocation. Interested in product teams, fintech, and
+            engineering-driven organizations working on long-lived backend or AI systems.
+          </p>
+        </div>
+
+        <div class="footer-actions">
+          <button class="btn btn-inverse" type="button" data-open-email>Email me</button>
+          <button class="btn btn-inverse-ghost" type="button" data-copy-email>Copy email</button>
+          <a class="btn btn-inverse-ghost" href="https://www.linkedin.com/in/francisco-javier-martinez-perez/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>Francisco Javier Martínez Pérez · Madrid, Spain</span>
+        <div class="footer-links">
+          <a href="https://github.com/javimp21" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/francisco-javier-martinez-perez/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://peatying.com/en" target="_blank" rel="noopener noreferrer">Peatying</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sr-status" id="copyToast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
